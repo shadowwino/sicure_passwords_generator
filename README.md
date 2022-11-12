@@ -1,1 +1,1 @@
-# Sicure Password Generator
+# Sicure Passwords Generator
