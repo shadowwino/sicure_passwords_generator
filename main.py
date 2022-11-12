@@ -11,7 +11,7 @@ class SPASS:
         init(autoreset=True)
 
     def isMinLength(self) -> bool:
-        if self.length < 8:
+        if self.length < 12:
             return False
         return True
 
