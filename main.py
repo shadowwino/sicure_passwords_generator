@@ -27,10 +27,10 @@ def main():
                 print(f'{Fore.RED} [!] Password too short\n\n')
             else:
                 print(f'{Fore.GREEN} [+] Password:{Fore.WHITE} {new_pass(length=length, charset=CHARSET, seed_value=randomize_seed())}\n\n')
-        except KeyboardInterrupt:
-            exit()
         except ValueError:
             print(f'{Fore.RED} [!] Password length must be an integer\n\n')
+        except KeyboardInterrupt:
+            exit()
         except:
             print(f'{Fore.RED} [!] Unknown error\n\n')         
 
